@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style = "?pageBackground">    
+        
+<LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <TableRow
+          android:id="@+id/picktableRow"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:layout_marginRight="20dp" >
+
+          <Button
+            android:id="@+id/pickbutton"
+            android:layout_width="130dp"
+            android:layout_height="170dp"
+            style="?button1"
+            android:text="." />
+
+        <Button
+            android:id="@+id/showbutton"
+            android:layout_width="128dp"
+            android:layout_height="172dp"
+            android:layout_marginLeft="20dp"
+            android:text="B"
+            android:textSize="100sp"
+            style="?button1"/>
+     
+        </TableRow>
+        
+    </TableLayout>
+
+</LinearLayout>
+</RelativeLayout>

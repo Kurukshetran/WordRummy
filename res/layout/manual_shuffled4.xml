@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    style="?pageBackground">
+    
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center">
+
+   <TableRow
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center_horizontal" 
+       android:layout_marginBottom="10dp">
+    <TextView
+        android:text="MANUAL_ORDER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+   </TableRow>
+  
+  <TableRow
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center_horizontal" 
+       android:layout_marginBottom="5dp">
+    <TextView
+        android:text="1ST_HOLDER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:text="2ND_HOLDER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"/>
+    
+    <TextView
+        android:text="3RD_HOLDER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"/>
+     <TextView
+        android:text="4TH_HOLDER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    </TableRow>
+    
+   <TableRow
+       android:id="@+id/tr1"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center_horizontal">
+	    
+	    <QuickContactBadge
+	        android:id="@+id/quickContactBadge1"
+	        android:layout_width="70dp"
+	        android:layout_height="70dp" 
+	        android:layout_marginRight="20dp"/>
+	
+	    <QuickContactBadge
+	        android:id="@+id/quickContactBadge2"
+	        android:layout_width="70dp"
+	        android:layout_height="70dp"
+	        android:layout_marginRight="20dp"/>
+	    
+	    <QuickContactBadge
+	        android:id="@+id/quickContactBadge3"
+	        android:layout_width="70dp"
+	        android:layout_height="70dp" 
+	        android:layout_marginRight="20dp"/>
+	   
+	    <QuickContactBadge
+	        android:id="@+id/quickContactBadge4"
+	        android:layout_width="70dp"
+	        android:layout_height="70dp"/>
+    
+    </TableRow>
+   
+    <TableRow
+       android:id="@+id/tr2"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center_horizontal" 
+       android:layout_marginBottom="10dp">
+    <TextView
+        android:id="@+id/Tx_quickContactBadge1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/Tx_quickContactBadge2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginRight="20dp"/>
+    
+    <TextView
+        android:id="@+id/Tx_quickContactBadge3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginRight="20dp"/>
+    
+     <TextView
+        android:id="@+id/Tx_quickContactBadge4"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+
+    </TableRow>
+   
+   <TableRow
+       android:id="@+id/tr3"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center_horizontal">
+    
+    <QuickContactBadge
+        android:id="@+id/quickContactBadge6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"/>
+
+    </TableRow>
+    
+   <TableRow
+       android:id="@+id/tr4"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center_horizontal">
+   
+     <TextView
+        android:id="@+id/Tx_quickContactBadge6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    </TableRow>
+    
+   <TableRow
+       android:id="@+id/tr5"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center_horizontal">
+   
+     <Button
+        android:id="@+id/Save"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" 
+        android:text="Save"/>   
+   
+    </TableRow>
+    
+</TableLayout>
+  
+</RelativeLayout>

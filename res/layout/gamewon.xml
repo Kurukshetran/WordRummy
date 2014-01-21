@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/gamewonheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Winner Result"
+        style="?text_view_header"/>
+
+    <TextView
+        android:id="@+id/noticeboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gamewonheader"
+        android:layout_centerHorizontal="true"
+        android:text="Congratulation, player2 You Won the Game" 
+        style="?text_view_subtitle"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_centerVertical="true"
+        android:text="Time"
+        style="?text_view_subtitle"/>
+
+    <TextView
+        android:id="@+id/outputofTiming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/OutputofScore"
+        android:text="00:00"
+        style="?text_view_subtitle"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="21dp"
+        android:text="Total Points"
+        style="?text_view_subtitle"/>
+
+    <TextView
+        android:id="@+id/OutputTotalScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/outputofTiming"
+        android:text="2000" 
+        style="?text_view_subtitle"/>
+
+    <TextView
+        android:id="@+id/OutputofScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignRight="@+id/gamewonheader"
+        android:text="1000" 
+        style="?text_view_subtitle"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView3">
+
+        <Button
+            android:id="@+id/PlayAgain"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="100dp"
+            android:text="Play Again"/>
+
+        <Button
+            android:id="@+id/Exit"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/PlayAgain"
+            android:text="Exit" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        style="?text_view_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noticeboard"
+        android:layout_marginTop="22dp"
+        android:layout_toLeftOf="@+id/gamewonheader"
+        android:text="Points" />
+
+</RelativeLayout> 

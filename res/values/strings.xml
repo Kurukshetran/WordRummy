@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">ShuffleWords</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_splash_screen">ShuffleWords</string>
+    
+    <string name="mentor">Project Mentor</string>
+    <string name="mentorname">A.Palani</string>
+    <string name="members">Project Members</string>
+    <string name="members1">T.Kurukshetran</string>
+    
+    <integer name="num_images">3</integer>
+    <integer name="num_columns">3</integer>
+    
+    <!-- MAIN MENU -->
+    
+    <string name="header">ShuffleWords</string>
+    <string name="ok">OK</string>
+    <string name="Play">Play</string>
+    <string name="Register">Register</string>
+    <string name="Setting">Game Settings</string>
+    <string name="Leaderboard">Leaderboard</string>
+    <string name="Resume">Resume</string>
+    <string name="Exit">Settings</string>
+    
+    <!-- REGISTRATION -->
+    
+    <string name="Registeration">Registeration</string>
+    <string name="EnterName">Enter Name</string>
+    <string name="EnterUsername">Enter Username</string>
+    <string name="EnterPassword">Enter Password</string>
+    <string name="Addphoto">Add your Photo:</string>
+    <string name="UploadourPhoto">Upload your Photo</string>
+    <string name="Camera">Camera</string>
+    <string name="Add">Register</string>
+    <string name="Cancel">Cancel</string>
+    
+    <!-- GAME SETTINGS -->
+    
+    <string name="PlaySettings">Game Parameters</string>
+    <string name="Deckstoplaywith">Difficulty</string>
+    <string name="threes">3</string>
+    <string name="fours">4</string>
+    <string name="fives">5</string>
+    <string name="noofPlayers">No of Players</string>
+    <string name="nthree">2</string>
+    <string name="nfour">3</string>
+    <string name="nfive">4</string>
+    <string name="show">Show Friends</string>
+    <string name="save">Save</string>
+    <string name="text1">1. Lose 100 points and continue the game</string>
+    <string name="text2">2. Exit the game without losing points.</string>
+    <string name="backspace">-</string>
+    
+    <!-- APP SETTINGS -->
+    
+    <string name="settingheader">Games Settings</string>
+    <string name="audio">Audio Controls</string>
+    <string name="wontext">Winning Voice</string>
+    <string name="wonload">Load</string>
+    <string name="wonrecord">Record</string>
+    <string name="losetext">Lose Voice</string>
+    <string name="loseload">Load</string>
+    <string name="loserecord">Record</string>
+    <string name="themes">App Themes</string>
+    <string name="oks">Save</string>
+    <string name="volume">Volume Control</string>
+    <string name="turn">Music On/Off</string>
+    <string name="msg">Oops you cannot play again.Earn more points and use this feature.</string>
+    
+    <!-- RESUME -->
+    
+    <string name="resumeActivity">Resume</string>
+    <string name="sno">SNO</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="players">Players</string>
+    <string name="action">Action</string>
+    
+    <string name="chronometer_initial_format">Initial format:<xliff:g id="initial-format">%</xliff:g></string>
+    
+    <!-- LEADERBOARD -->
+    
+    <string name="LeaderBoard">LeaderBoard</string>
+    <string name="NAME">NAME</string>
+    <string name="GAMESPLAYED">GAMES PLAYED</string>
+    <string name="WON">WON</string>
+    <color name="BG">#011</color>
+    
+</resources>

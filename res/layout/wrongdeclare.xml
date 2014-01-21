@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    style="?pageBackground">
+    
+<LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"        	                
+    	android:layout_marginTop="10dp">
+		
+		<TableRow 
+		   android:id="@+id/tableRow1" 
+		   android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center">
+		  
+            <TextView
+	            android:id="@+id/NoticeBoard"
+	            android:layout_width="fill_parent"
+	            android:layout_height="50dp"
+	            style="?text_view_title"
+	            android:padding="10dip" />
+		</TableRow>
+	</TableLayout>   
+    
+    <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+            
+        <TableRow
+           android:id="@+id/tableRow1"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:gravity="center">
+	        <TextView
+	            android:id="@+id/Timimg"
+	            android:layout_width="100dp"
+	            android:layout_height="50dp"
+	            android:text="Timing"
+	            style="?text_view_title"
+	            android:padding="10dip"
+	            android:layout_marginRight="10dp"/>
+	        
+	        <TextView
+	            android:id="@+id/outputofTiming"
+	            android:layout_width="60dp"
+	            android:layout_height="50dp"
+	            style="?text_view_title"
+	            android:padding="10dip"/>
+	         <TextView
+	            android:id="@+id/Rounds"
+	            android:layout_width="80dp"
+	            android:layout_height="50dp"
+	            android:text="Rounds"
+	            style="?text_view_title"
+	            android:padding="10dip"
+	            android:layout_marginRight="10dp"/>
+	        
+	        <TextView
+	            android:id="@+id/outputofRounds"
+	            android:layout_width="60dp"
+	            android:layout_height="50dp"
+	            style="?text_view_title"
+	            android:padding="10dip"/>
+	       
+        </TableRow>
+        
+        </TableLayout>
+        
+        <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+        <TableRow 
+           android:id="@+id/tableRow3"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:gravity="center">
+	        
+	        <TextView
+	            android:id="@+id/text1"
+	            android:layout_width="480dp"
+	            android:layout_height="45dp"
+	            android:text="@string/text1"	            
+	            android:padding="10dip"
+	            android:gravity="center"
+	            style="?text_view_title"
+	            android:layout_marginRight="10dp"/>        
+        </TableRow>
+        
+         <TableRow 
+           android:id="@+id/tableRow4"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:gravity="center_horizontal">
+	        
+	        <TextView
+	            android:id="@+id/text1"
+	            android:layout_width="480dp"
+	            android:layout_height="25dp"
+	            android:text="OR"	            
+	            android:gravity="center_horizontal"
+	            style="?text_view_title"/>        
+        </TableRow>
+        <TableRow 
+           android:id="@+id/tableRow5"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:gravity="center_horizontal">"
+	        
+	        <TextView
+	            android:id="@+id/text2"
+	            android:layout_width="480dp"
+	            android:layout_height="45dp"
+	            android:text="@string/text2"
+	            style="?text_view_title"
+	            android:padding="10dip"	            
+	            android:gravity="center"/>        
+        </TableRow>
+        
+        </TableLayout>
+        
+        <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+            
+        <TableRow
+		    android:id="@+id/tableRow2"
+		    android:gravity="center_horizontal"
+		    android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_marginTop="20dp">
+       
+            <Button
+                android:id="@+id/PlayAgain1"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                style="?button2"
+                android:layout_marginBottom="10dip"
+                android:text="Rejoin" />
+
+		   <Button
+		       android:id="@+id/Exit1"
+		       android:layout_width="120dp"
+		       android:layout_height="40dp"
+		       android:layout_marginBottom="10dip"
+		       style="?button2"
+		       android:layout_marginLeft="20dp"
+		       android:text="Out" />
+
+		</TableRow>
+		</TableLayout>
+        
+</LinearLayout>
+</ScrollView>

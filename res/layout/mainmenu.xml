@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         style="?pageBackground">         
+      
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+            
+            <Button
+                android:id="@+id/button1" 
+                android:text="@string/Play"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:textSize="24sp"
+                style="?button2"
+                android:layout_marginBottom="2dp">                                
+            </Button>
+            
+            <Button
+                android:id="@+id/button4"  
+                android:text="@string/Resume"
+                android:layout_width="220dp"
+	    		android:layout_height="50dp"
+	    		style="?button2"
+	    		android:textSize="24sp"
+	    		android:layout_marginBottom="2dp">                
+            </Button>
+            
+            <Button
+                android:id="@+id/button2"  
+                android:text="@string/Register"
+                android:layout_width="220dp"
+	    		android:layout_height="50dp"
+	    		android:textSize="24sp"
+	    		style="?button2"
+	    		android:layout_marginBottom="2dp">                
+            </Button>
+              
+            <Button
+                android:id="@+id/button3"  
+                android:text="@string/Leaderboard"
+                android:layout_width="220dp"
+	    		android:layout_height="50dp"
+	    		style="?button2"
+	    		android:textSize="24sp"
+	    		android:layout_marginBottom="2dp">                
+            </Button>          
+            
+            <Button
+                android:id="@+id/button5"  
+                android:text="Settings"
+                android:layout_width="220dp"
+	    		android:layout_height="50dp"
+	    		style="?button2"
+	    		android:textSize="24sp"
+	    		android:layout_marginBottom="2dp">                
+            </Button>
+        </LinearLayout>
+
+  </RelativeLayout>

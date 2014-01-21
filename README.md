@@ -1,0 +1,1 @@
+A creative android based multiplayer game which combines game play of Indian rummy and Word game for learning android sdk.

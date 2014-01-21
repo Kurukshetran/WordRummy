@@ -1,0 +1,125 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar" />
+    
+    <!-- =============================================================== -->
+	<!-- Night Styles -->
+	<!-- =============================================================== -->
+
+	<style name="list_divider">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">1dip</item>
+		<item name="android:layout_marginTop">4dip</item>
+		<item name="android:layout_marginBottom">4dip</item>
+	</style>
+
+	<!-- =============================================================== -->
+	<!-- Rose styles -->
+	<!-- =============================================================== -->
+
+	<dimen name="page_margin_st">2sp</dimen>
+	<dimen name="content_left_margin_st">8sp</dimen>
+
+ 	<style name="page_background_st">
+ 		<item name="android:background">#862A51</item> 
+ 	</style>
+ 	
+ 		<style name="text_view_header_st">
+		<item name="android:textSize">22sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#fff</item>
+	</style>
+  
+    <style name="text_view_title_st">
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#fff</item>
+	</style>
+	
+	<style name="text_view_subtitle_st">
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">#fff</item>
+	</style>
+ 	
+	<style name="button1_st">
+		<item name="android:background">#E0EEEE</item>
+		<item name="android:textColor">#000</item>
+	</style>
+	
+    <style name="button2_st">
+		<item name="android:background">#E0EEEE</item>
+		<item name="android:textColor">#000</item>
+	</style>
+	
+	<!-- =============================================================== -->
+	<!-- White styles -->
+	<!-- =============================================================== -->
+
+	<dimen name="page_margin_wd">2sp</dimen>
+	<dimen name="content_left_margin_wd">8sp</dimen>
+
+ 	<style name="page_background_wd">
+ 		<item name="android:background">#FFFFFF</item> 
+ 	</style>
+ 	
+	<style name="text_view_header_wd">
+		<item name="android:textSize">22sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#000</item>
+	</style>
+  
+    <style name="text_view_title_wd">
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#000</item>
+	</style>
+	<style name="text_view_subtitle_wd">
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">#000</item>
+	</style>
+ 	
+	<style name="button1_wd">
+		<item name="android:background">#862A51</item>
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+    <style name="button2_wd">
+		<item name="android:background">@drawable/buttonborder</item> <!--#862A51-->
+		<item name="android:textColor">#000</item>
+	</style>
+	
+    <!-- =============================================================== -->
+	<!-- Black styles -->
+	<!-- =============================================================== -->
+
+<dimen name="page_margin_bl">2sp</dimen>
+	<dimen name="content_left_margin_bl">8sp</dimen>
+
+ 	<style name="page_background_bl">
+ 		<item name="android:background">#000</item>
+ 	</style>
+ 	
+	<style name="text_view_header_bl">
+		<item name="android:textSize">22sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#fff</item>
+	</style>
+  
+    <style name="text_view_title_bl">
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#fff</item>
+	</style>
+	<style name="text_view_subtitle_bl">
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">#fff</item>
+	</style>	
+ 	
+	<style name="button1_bl">
+		<item name="android:background">#FDD017</item>
+		<item name="android:textColor">#fff</item>
+	</style>
+	
+    <style name="button2_bl">
+		<item name="android:background">@drawable/buttonborder_bl</item> <!--#862A51-->
+		<item name="android:textColor">#fff</item>
+	</style>
+	
+
+</resources>

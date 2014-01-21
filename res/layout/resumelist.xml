@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical"
+    android:padding="6dip">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        style ="?text_view_subtitle"
+        android:text=""/>
+    
+    <TextView
+         android:id="@+id/resumeGameTag"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/date"
+         android:layout_alignParentBottom="true"
+         android:textSize="15sp"
+         style ="?text_view_subtitle"
+         android:text=""/>
+
+    <TextView
+        android:id="@+id/playersname"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/date"
+        android:layout_alignBottom="@+id/date"
+        android:layout_marginLeft="60dp"
+        android:layout_toRightOf="@+id/date"
+        android:textSize="15sp"
+        style ="?text_view_subtitle"
+        android:text=""/>
+    
+    <Button
+        android:id="@+id/playlist"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="80dp"
+        android:onClick="PlayEventHandler"
+        android:text="Resume"/>
+    
+     <Button
+        android:id="@+id/deletelist"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:onClick="DeleteEventHandler"
+        android:text="Delete"/>
+
+</RelativeLayout>

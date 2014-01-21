@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+<LinearLayout
+    android:id="@+id/widget36"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="?pageBackground"   
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Registeration"
+        style="?text_view_header"/>
+
+    <EditText
+        android:id="@+id/enterUsername"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#000"
+        android:maxLength="8"
+        android:inputType="textCapWords"
+        android:hint="@string/EnterUsername"
+        android:singleLine="true"
+        android:textSize="18sp">
+        <requestFocus/>
+    </EditText>
+
+    <EditText
+        android:id = "@+id/enterPassword"
+        android:layout_width = "281dp"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center_horizontal"
+        android:layout_marginTop = "10dp"
+        android:layout_marginBottom = "10dp"
+        android:hint = "@string/EnterPassword"
+        android:ems = "10"
+        android:password="true"
+        android:inputType ="numberPassword"
+        android:maxLength="3"
+        android:textColorHint="#000"
+        android:singleLine="true"
+        android:textSize="18sp"/>
+    
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        
+        <Button
+	        android:id="@+id/takePhoto"
+	        android:layout_width="140dp"
+	        android:layout_height="40dp"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginTop="20dp"
+	        android:layout_marginRight="5dp"
+	        android:text="Take Photo"
+	     	style="?button2"/>
+        
+        <Button
+	        android:id="@+id/addPhoto"
+	        android:layout_width="140dp"
+	        android:layout_height="40dp"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginTop="20dp"
+	        android:text="Pick Photo"
+	     	style="?button2"/> 
+      
+    </TableRow>
+
+    <Button
+        android:id="@+id/addRegister"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/Add"
+     	style="?button2"/>
+</LinearLayout>
+
+</RelativeLayout>

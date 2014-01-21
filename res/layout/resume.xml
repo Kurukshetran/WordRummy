@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>	
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="?pageBackground">
+    
+    <RelativeLayout 
+	        android:id="@+id/rl_learderboard_heading"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="#663300">		
+		
+		<TextView 
+		    android:id="@+id/tv_11"
+			android:layout_width="120dip"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="Game Info"
+			android:textStyle="normal|bold"
+			android:textColor="#FFFFFF"
+			android:textSize="18sp">
+		</TextView>
+
+		<TextView 
+		    android:id="@+id/tv_12"
+			android:layout_width="220dip"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="Expires On"
+			android:textStyle="normal|bold"
+			android:textColor="#FFFFFF"
+			android:textSize="18sp"
+			android:layout_toRightOf="@+id/tv_11">
+		</TextView>
+						
+		<TextView 
+		    android:id="@+id/tv_13"
+			android:layout_width="110dip"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="@string/action"
+			android:textStyle="normal|bold"
+			android:textColor="#FFFFFF"
+			android:textSize="18sp"
+			android:layout_toRightOf="@+id/tv_12">
+		</TextView>
+	</RelativeLayout>
+	
+    <LinearLayout 
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+ 	android:layout_height="fill_parent">
+				
+	<ListView 
+	    android:id="@+id/listview1"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	</ListView>
+			
+    </LinearLayout>
+	</LinearLayout>

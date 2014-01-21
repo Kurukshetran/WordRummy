@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/background_dark">
+    
+ <LinearLayout 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" 
+     android:layout_margin="1dp"
+     style="?pageBackground">
+     
+     <LinearLayout 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical" 
+      android:layout_margin="20dp">    
+      
+      <TextView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          style="?text_view_subtitle"
+          android:text="Are you sure? You want to exit"/>
+     
+      <Button
+          android:id="@+id/yespopup"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_marginBottom="3dp"
+          android:text="Yes"
+          style="?button2"/>
+      
+      <Button
+          android:id="@+id/nopopup"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:text="No"
+          style="?button2"/>
+      
+      </LinearLayout>
+      
+ </LinearLayout>
+ 
+</LinearLayout>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>    
+
+ <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:fadeScrollbars="false"
+    android:scrollbarThumbVertical="@drawable/scroll" 
+    style="?pageBackground">
+    
+<TableLayout 
+    android:id="@+id/tableLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+    
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal">"
+
+        <TextView
+            android:id="@+id/PlaySettingsView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Settings"
+            style="?text_view_header"/>
+    </TableRow>
+      
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content" 
+        android:gravity="left">
+ 
+        <TextView
+            android:id="@+id/audio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Audio"
+            style="?text_view_title">
+
+        </TextView>
+         
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+         </TextView>
+  
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+         </TextView>
+  
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+         </TextView>
+    
+	</TableRow>
+
+    <TableRow
+        android:id="@+id/tableRowADW"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:layout_marginTop="3dp"
+        android:gravity="left">
+       
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+        </TextView>
+  
+        <TextView
+            android:id="@+id/audioWin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For Winner"
+            android:layout_marginRight="30dp"
+            style="?text_view_subtitle">
+        </TextView>
+		
+     <Button
+         android:id="@+id/wonaudiolocal"
+         android:layout_width="100dp"
+         android:layout_height="35dp"
+         style="?button2"
+         android:layout_marginRight="15dp"
+         android:text="SDcard" />
+
+       <Button
+         android:id="@+id/wonaudiorecorder"
+         android:layout_width="100dp"
+         android:layout_height="35dp"
+         android:text="Record"
+         style="?button2"
+         android:layout_marginRight="15dp"       
+         android:textColor="#000"/>
+     
+	</TableRow>
+
+    <TableRow
+        android:id="@+id/tableRowADL"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="left">
+  
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+         </TextView>
+  
+        <TextView
+            android:id="@+id/audioLoss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For Losser"
+            android:layout_marginRight="30dp"
+            style="?text_view_subtitle">
+
+        </TextView>
+		
+        <Button
+	         android:id="@+id/loseaudiolocal"
+	         android:layout_width="100dp"
+	         android:layout_height="35dp"
+	         style="?button2"
+	         android:layout_marginRight="15dp"
+             android:text="SDcard" />
+
+        <Button
+	         android:id="@+id/loseaudiorecorder"
+	         android:layout_width="100dp"
+	         android:layout_height="35dp"
+	         android:text="Record"
+	         style="?button2"
+	         android:layout_marginRight="15dp"
+	         android:textColor="#000"/>
+	    
+	</TableRow>		
+    
+    <TableRow
+        android:id="@+id/tableRow10"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:gravity="left">
+         
+        <TextView
+            android:id="@+id/theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?text_view_title"
+            android:text="Theme" >
+        </TextView>  
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+         </TextView>
+      
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+         </TextView>
+  
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+         </TextView>
+  
+	</TableRow>	   
+    
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+         </TextView>
+         
+        <TextView
+            android:id="@+id/theme1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selection"
+            android:layout_marginRight="30dp"
+            style="?text_view_subtitle">
+        </TextView>
+	
+          <Spinner 
+            android:layout_height="40dp"
+            android:layout_width="100dp"
+            android:layout_span="2"
+            android:layout_marginRight="15dp"
+            android:id="@+id/themespinner">              
+          </Spinner>
+      
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+         </TextView>
+        
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:gravity="left">
+         
+        <TextView
+            android:id="@+id/resumeTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?text_view_title"
+            android:text="Save Duration" >
+        </TextView>  
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+         </TextView>
+      
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+         </TextView>
+  
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+         </TextView>
+  
+	</TableRow>	   
+    
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+         </TextView>
+         
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:layout_marginRight="30dp"
+            style="?text_view_subtitle">
+        </TextView>
+	
+          <Spinner 
+            android:layout_height="40dp"
+            android:layout_width="100dp"
+            android:layout_span="2"
+            android:layout_marginRight="15dp"
+            android:id="@+id/timespinner">              
+          </Spinner>
+      
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+         </TextView>
+        
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:gravity="left">
+         
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+        </TextView>  
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+         </TextView>
+      
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+         </TextView>
+  
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+         </TextView>
+  
+	</TableRow>	   
+ 
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="13dp"
+        android:gravity="center_horizontal">
+      
+		<Button		    
+			android:id="@+id/appsettingsave"
+			android:layout_width="100dp"
+			android:layout_span="2"
+		    style="?button2"		    
+		    android:layout_marginRight="15dp"
+			android:layout_height="40dp"
+			android:text="Save"/>
+		
+    </TableRow>
+   
+ </TableLayout>
+
+</ScrollView>

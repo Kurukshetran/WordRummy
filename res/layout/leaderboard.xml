@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="?pageBackground">
+    
+    <TextView
+   	    android:text="Leader Board"
+   	    android:gravity="center_vertical|center_horizontal"    	   
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    style="?text_view_header"
+   	    android:layout_marginBottom="5dip"
+   	    android:typeface="sans"/>
+    
+    <RelativeLayout 
+        android:id="@+id/rl_learderboard_heading"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="#663300">
+		
+		<TextView android:id="@+id/tv_11"
+			android:layout_width="48dip"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="Id"
+			android:textStyle="normal|bold"
+			android:textColor="#FFFFFF"
+			android:textSize="18dip">
+		</TextView>
+		
+		<TextView android:id="@+id/tv_12"
+			android:layout_width="90dip"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="Name"
+			android:textStyle="normal|bold"
+			android:textColor="#FFFFFF"
+			android:textSize="18dip"
+			android:layout_toRightOf="@+id/tv_11">
+		</TextView>
+		
+		<TextView android:id="@+id/tv_13"
+			android:layout_width="98dip"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="Played"
+			android:textStyle="normal|bold"
+			android:textColor="#FFFFFF"
+			android:textSize="18dip"
+			android:layout_toRightOf="@+id/tv_12">
+		</TextView>
+
+		<TextView android:id="@+id/tv_14"
+			android:layout_width="78dip"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="Won"
+			android:textStyle="normal|bold"
+			android:textColor="#FFFFFF"
+			android:textSize="18dip"
+			android:layout_toRightOf="@+id/tv_13">
+		</TextView>
+
+		<TextView android:id="@+id/tv_15"
+			android:layout_width="78dip"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="Loss"
+			android:textStyle="normal|bold"
+			android:textColor="#FFFFFF"
+			android:textSize="18dip"
+			android:layout_toRightOf="@+id/tv_14">
+		</TextView>
+						
+		<TextView android:id="@+id/tv_16"
+			android:layout_width="86dip"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="Points"
+			android:textStyle="normal|bold"
+			android:textColor="#FFFFFF"
+			android:textSize="18dip"
+			android:layout_toRightOf="@+id/tv_15">
+		</TextView>
+	</RelativeLayout>
+	<LinearLayout android:id="@+id/ll_leaderboard"
+		android:layout_height="fill_parent" android:layout_width="fill_parent">
+		<ScrollView android:id="@+id/ScrollView11"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:fillViewport="true">
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_margin="5dip">
+				<TableLayout 
+				    xmlns:android="http://schemas.android.com/apk/res/android"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:stretchColumns="0,1,2,3,4,5"
+					android:id="@+id/leaderboard">
+				</TableLayout>
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+</LinearLayout>
+

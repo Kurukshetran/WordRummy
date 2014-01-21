@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+   
+ <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    style="?pageBackground">
+    
+<TableLayout 
+    android:id="@+id/tableLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">"
+ 
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="25dp" >
+ 
+       <TextView
+            android:id="@+id/PlaySettingsView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="6"
+            android:gravity="center"
+            android:text="@string/PlaySettings"
+            style="?text_view_header">
+       </TextView>
+     </TableRow>
+  	  
+	<!-- Row 2 -->
+	
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="left"
+        android:layout_marginBottom="3dp">
+ 
+     <TextView
+            android:id="@+id/DeckstoplaywithView"
+            android:text="@string/Deckstoplaywith"
+            android:layout_marginRight="25dp"
+            style="?text_view_title">
+        </TextView>
+		
+		<Spinner android:layout_height="40dp"
+            android:id="@+id/spinner1"
+            style = "?spinner" 
+            android:layout_width="fill_parent"/>
+    </TableRow>
+    
+   	
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left" 
+        android:layout_marginBottom="3dp">
+		
+		<TextView
+            android:id="@+id/NoofPlayers"
+            android:text="@string/noofPlayers"
+            android:layout_marginRight="25dp"
+            style="?text_view_title">
+        </TextView>
+
+	<RadioGroup
+        android:id="@+id/no_of_players"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+ 
+        <RadioButton
+            android:id="@+id/radioplayThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:checked="true"
+            android:textColor="#EC1C24"/>
+ 
+        <RadioButton
+            android:id="@+id/radioplayFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3" 
+            android:textColor="#EC1C24"/>
+			
+		<RadioButton
+            android:id="@+id/radioplayFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4" 
+            android:textColor="#EC1C24"/>
+ 
+    </RadioGroup>
+  
+    </TableRow>
+	
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:gravity="left"
+        android:layout_marginBottom="3dp">
+ 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="Players"
+            android:layout_marginRight="25dp"
+            style="?text_view_title">
+		 </TextView>
+	    
+	    <Button
+			android:id="@+id/showFriends"
+			android:layout_width="175dp"
+			android:layout_height="wrap_content"
+			android:minHeight="40dp"
+			android:text=""
+			style="?button2"/>
+ 		
+	 </TableRow>
+    	
+ 
+</TableLayout>
+<TableLayout 
+    android:id="@+id/tableLayout2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/tableLayout1">
+     
+    <TableRow
+        android:id="@+id/tableRow14"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:gravity="left"
+        android:layout_marginTop = "10dp">
+	    
+	      <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="Players order"
+            android:layout_marginRight="20dp"
+            style="?text_view_title">
+		 </TextView>
+ 		
+	 </TableRow>
+    
+    </TableLayout>
+
+<Button
+    android:id="@+id/sysorder"
+    android:layout_width="90dp"
+    android:layout_height="40dp"
+    android:layout_marginTop="5dp"
+    android:layout_below="@+id/tableLayout1"
+    android:layout_toRightOf="@+id/tableLayout2"
+    android:text="System" />
+
+<Button
+    android:id="@+id/manorder"
+    android:layout_width="90dp"
+    android:layout_height="40dp"
+    android:layout_marginTop="5dp"
+    android:layout_alignBaseline="@+id/sysorder"
+    android:layout_alignBottom="@+id/sysorder"
+    android:layout_toRightOf="@+id/sysorder"
+    android:text="Manual" />
+
+<Button
+    android:id="@+id/play"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/sysorder"
+    android:layout_alignParentBottom="true"
+    android:layout_alignRight="@+id/tableLayout1"
+    android:text="Confirm" />
+
+</RelativeLayout>

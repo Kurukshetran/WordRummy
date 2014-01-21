@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="Theme" parent="android:Theme">
+		<item name="pageMargin">2sp</item>
+		<item name="android:windowTitleSize">20dip</item>
+	</style>
+
+  <style name="Theme.Steel">
+		<item name="pageBackground">@style/page_background_st</item>
+		<item name="button1">@style/button1_st</item>
+		<item name="button2">@style/button2_st</item>
+			
+	</style>
+   
+   <style name="Theme.Wood">
+		<item name="pageBackground">@style/page_background_wd</item>
+		<item name="button1">@style/button1_wd</item>
+		<item name="button2">@style/button2_wd</item>
+        <item name="text_view_header">@style/text_view_header_wd</item>
+		<item name="text_view_title">@style/text_view_title_wd</item>
+		<item name="text_view_subtitle">@style/text_view_subtitle_wd</item>
+					
+	</style>
+	
+	<style name="Theme.Black">
+		<item name="pageBackground">@style/page_background_bl</item>
+		<item name="button1">@style/button1_bl</item>
+		<item name="button2">@style/button2_bl</item>
+        <item name="text_view_header">@style/text_view_header_bl</item>
+		<item name="text_view_title">@style/text_view_title_bl</item>
+		<item name="text_view_subtitle">@style/text_view_subtitle_bl</item>
+	</style>
+
+</resources>
